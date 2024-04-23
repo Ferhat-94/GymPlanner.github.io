@@ -1,0 +1,83 @@
+.gymplanner,
+.i,
+.visualize-your-dream {
+  position: absolute;
+  letter-spacing: 0.06em;
+  line-height: 44px;
+}
+.gymplanner {
+  top: 0;
+  left: 33px;
+  font-weight: 700;
+  color: #fcf7e9;
+}
+.i,
+.visualize-your-dream {
+  left: 0;
+}
+.i {
+  top: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+}
+.visualize-your-dream {
+  top: 33px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.gymplanner-parent {
+  position: absolute;
+  top: 208px;
+  left: 10px;
+  width: 356px;
+  height: 77px;
+}
+.sign-up {
+  position: relative;
+  font-weight: 600;
+}
+.chevron-right-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sign-up-parent,
+.small-button {
+  display: flex;
+  flex-direction: row;
+}
+.sign-up-parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.small-button {
+  position: absolute;
+  top: 597px;
+  left: 95px;
+  border-radius: var(--br-29xl);
+  background-color: var(--primary);
+  width: 185px;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-smi)
+    var(--padding-9xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: var(--subtitle-medium-size);
+  color: var(--color-black);
+  font-family: var(--body-medium);
+}
+.welcome-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-yellowgreen);
+  font-family: var(--font-montserrat);
+}

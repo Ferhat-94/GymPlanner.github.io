@@ -1,0 +1,94 @@
+.time,
+.time1 {
+  position: absolute;
+}
+.time1 {
+  top: 33.89%;
+  left: 38.41%;
+  line-height: 22px;
+  font-weight: 600;
+}
+.time {
+  width: 35.11%;
+  top: calc(50% - 27px);
+  right: 64.89%;
+  left: 0;
+  height: 54px;
+}
+.border,
+.cap-icon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 13.65px);
+  border-radius: 4.3px;
+  border: 1px solid var(--soft);
+  box-sizing: border-box;
+  width: 25px;
+  opacity: 0.35;
+}
+.cap-icon {
+  height: 31.54%;
+  top: 36.92%;
+  bottom: 31.54%;
+  left: calc(50% + 12.35px);
+  max-height: 100%;
+  width: 1.3px;
+  opacity: 0.4;
+}
+.capacity {
+  position: absolute;
+  height: 69.23%;
+  top: 15.38%;
+  bottom: 15.38%;
+  left: calc(50% - 11.65px);
+  border-radius: 2.5px;
+  background-color: var(--soft);
+  width: 21px;
+}
+.battery {
+  position: absolute;
+  height: 24.07%;
+  top: 42.59%;
+  bottom: 33.33%;
+  left: calc(50% + 11.5px);
+  width: 27.3px;
+}
+.cellular-connection-icon,
+.wifi-icon {
+  position: absolute;
+  height: 22.78%;
+  top: 43.7%;
+  bottom: 33.52%;
+  left: calc(50% - 12.8px);
+  max-height: 100%;
+  width: 17.1px;
+}
+.cellular-connection-icon {
+  height: 22.59%;
+  top: 43.52%;
+  bottom: 33.89%;
+  left: calc(50% - 39.5px);
+  width: 19.2px;
+}
+.levels {
+  position: absolute;
+  width: 36.39%;
+  top: calc(50% - 27px);
+  right: 0;
+  left: 63.61%;
+  height: 54px;
+}
+.status-bar-iphone {
+  width: 100%;
+  position: relative;
+  height: 54px;
+  text-align: center;
+  font-size: var(--subtitle-medium-size);
+  color: var(--soft);
+  font-family: var(--font-montserrat);
+}

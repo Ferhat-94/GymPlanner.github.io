@@ -1,0 +1,83 @@
+.tempimagealcoy1-1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 875.3px;
+  object-fit: cover;
+}
+.rectangle18,
+.video {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle18 {
+  height: 100%;
+  top: 0;
+  background: linear-gradient(
+    180.13deg,
+    rgba(17, 17, 18, 0),
+    rgba(17, 17, 18, 0.7)
+  );
+}
+.video {
+  height: 29.8%;
+  top: 70.2%;
+}
+.circle-left-icon1,
+.rectangle19 {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+}
+.rectangle19 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+}
+.button-text2 {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 53.5px);
+  font-weight: 600;
+}
+.button2,
+.default-button2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.button2 {
+  height: 7.27%;
+  width: 42.4%;
+  top: 87.32%;
+  right: 28.8%;
+  bottom: 5.42%;
+  left: 28.8%;
+  cursor: pointer;
+}
+.ar-visualization {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--subtitle-medium-size);
+  color: var(--color-black);
+  font-family: var(--body-medium);
+}

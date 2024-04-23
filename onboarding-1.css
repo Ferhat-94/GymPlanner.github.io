@@ -1,0 +1,69 @@
+.background-icon1 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 375px;
+  height: 460px;
+}
+.choose-your-equipment {
+  position: absolute;
+  top: 520px;
+  left: 0;
+  line-height: 28px;
+  font-weight: 600;
+  display: inline-block;
+  width: 416px;
+  height: 67px;
+}
+.background1 {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 416px;
+  height: 587px;
+}
+.indicator-child,
+.indicator-inner,
+.indicator-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary);
+  width: 36px;
+  height: 4px;
+}
+.indicator-inner,
+.indicator-item {
+  left: 46px;
+  background-color: var(--dark-3);
+  width: 16px;
+}
+.indicator-inner {
+  left: 72px;
+}
+.indicator {
+  position: absolute;
+  top: 744px;
+  left: 143px;
+  width: 88px;
+  height: 4px;
+}
+.background-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 460px;
+  object-fit: cover;
+}
+.onboarding-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--soft);
+  font-family: var(--font-montserrat);
+}
