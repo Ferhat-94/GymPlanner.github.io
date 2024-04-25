@@ -33,5 +33,23 @@
       </div>
       <img class="background-icon2" alt="" src="pictures/gym.jpg" />
     </div>
+    <script>
+      // Add JavaScript code here
+      document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("click", function (event) {
+          // Get the width of the window
+          var windowWidth = window.innerWidth;
+
+          // Get the X coordinate of the click event
+          var clickX = event.clientX;
+
+          // Check if the click occurred on the right half of the screen
+          if (clickX > windowWidth / 2) {
+            // Redirect to onboarding-2
+            window.location.href = "onboarding-2.html";
+          }
+        });
+      });
+    </script>
   </body>
 </html>
