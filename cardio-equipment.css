@@ -1,7 +1,38 @@
-.cardio1 {
-  position: relative;
+.text,
+.title {
+  position: absolute;
+}
+.title {
+  top: 0;
+  left: 0;
   line-height: 25px;
   font-weight: 600;
+}
+.text {
+  height: 3.08%;
+  width: 28.27%;
+  top: 6.77%;
+  right: 35.73%;
+  bottom: 90.15%;
+  left: 36%;
+}
+.cardio3,
+.text2 {
+  position: absolute;
+}
+.cardio3 {
+  top: 0;
+  left: 0;
+  line-height: 25px;
+  font-weight: 600;
+}
+.text2 {
+  height: 3.08%;
+  width: 22.4%;
+  top: 6.77%;
+  right: 38.93%;
+  bottom: 90.15%;
+  left: 38.67%;
 }
 .text1 {
   position: absolute;
@@ -62,50 +93,90 @@
   cursor: pointer;
   font-size: var(--footnote-medium-size);
 }
+.rectangle11,
+.selection3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-13xl);
+  background-color: var(--dark-2);
+}
+.selection3 {
+  width: 31.71%;
+  right: 0.7%;
+  left: 67.58%;
+  border-radius: var(--br-5xl);
+  background-color: var(--primary);
+}
+.all2 {
+  left: 13.76%;
+}
+.all2,
+.cardio4,
+.strength2 {
+  position: absolute;
+  top: 17.86%;
+  line-height: 16px;
+}
+.cardio4 {
+  height: 57.14%;
+  width: 12.23%;
+  left: 44.04%;
+  display: inline-block;
+}
+.strength2 {
+  left: 75.84%;
+  color: var(--color-gray-200);
+}
+
 .image-icon6 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: auto;
   top: 0;
-  right: 0;
+  right: 20px;
   bottom: 0;
   left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  display: none;
+  margin-right: 0px;
+  margin-left: 200px;
 }
 .image-icon6,
 .rectangle8 {
+  position: absolute; /* Ensure that the container has a position */
+  width: 240px; /* Adjust the width of the rectangle as needed */
+  height: 150px; /* Adjust the height of the rectangle as needed */
   border-radius: var(--br-base);
+  overflow: hidden; /* Clip the content within the rectangle */
+  right: 5px; /* Align the rectangles to the right side */
+  margin-top: 20px;
 }
-.card6,
-.rectangle8 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.card6 {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  align-items: center;
 }
-.title20 {
+.title2,
+.vector {
   position: relative;
+}
+.title2 {
   font-weight: 600;
 }
-.vector6 {
+.vector {
   width: 11px;
-  position: relative;
   background-color: var(--primary);
   height: 2px;
   transform: rotate(-90deg);
 }
-.subtitle13 {
+.subtitle1 {
   position: relative;
   line-height: 16px;
 }
-.subtitle12 {
+.subtitle {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -114,7 +185,7 @@
   font-size: var(--footnote-medium-size);
   color: var(--primary);
 }
-.title19 {
+.title1 {
   position: absolute;
   bottom: 16px;
   left: 16px;
@@ -125,31 +196,11 @@
   justify-content: flex-end;
   gap: var(--gap-9xs);
 }
-.pro-badge-child4 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-red-100);
-}
 .title21 {
   position: absolute;
   top: 6.25%;
   left: 15.15%;
   line-height: 13px;
-}
-.pro-badge6 {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  width: 33px;
-  height: 16px;
-  display: none;
-  font-size: var(--caption-regular-size);
 }
 .card-21,
 .card-31 {
@@ -180,37 +231,9 @@
   right: 0;
   left: 0;
 }
-.pro-badge-child6 {
-  height: 100%;
-  bottom: 0;
-  border-radius: var(--br-9xs);
-  background-color: var(--premium);
-}
 .card-11 {
-  height: 31.25%;
-  bottom: 68.75%;
-}
-.image-1-icon1,
-.tempimagemvz0yq-1-icon1,
-.tempimagewbzvie-1-icon1 {
-  position: absolute;
-  left: 131px;
-  border-radius: 0 var(--br-base) var(--br-base) 0;
-  height: 160px;
-  object-fit: cover;
-}
-.image-1-icon1 {
-  top: 0;
-  width: 195.7px;
-  mix-blend-mode: normal;
-}
-.tempimagemvz0yq-1-icon1,
-.tempimagewbzvie-1-icon1 {
-  top: 176px;
-  width: 196px;
-}
-.tempimagewbzvie-1-icon1 {
-  top: 352px;
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
 }
 .cards1 {
   position: absolute;
@@ -245,4 +268,51 @@
   font-size: var(--h5-semibold-size);
   color: var(--soft);
   font-family: var(--body-medium);
+}
+.card-3 {
+  position: absolute;
+  height: 15.24%;
+  top: 33.52%;
+  bottom: 51.24%;
+  cursor: pointer;
+}
+.card-2,
+.card-3,
+.rectangle6 {
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.card-2 {
+  position: absolute;
+  height: 15.24%;
+  top: 16.76%;
+  bottom: 68%;
+}
+.rectangle6 {
+  height: 100%;
+  bottom: 0;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: var(--br-base);
+}
+.card-1,
+.image-1-icon,
+.rectangle6 {
+  position: absolute;
+  top: 0;
+}
+.card-1 {
+  height: 15.24%;
+  width: 100%;
+  right: 0;
+  bottom: 84.76%;
+  left: 0;
+}
+.image-1-icon {
+  left: 131px;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  width: 195.7px;
+  height: 160px;
+  object-fit: cover;
+  mix-blend-mode: normal;
 }

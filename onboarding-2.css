@@ -1,3 +1,10 @@
+.background-icon2 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 375px;
+  height: 460px;
+}
 .rectangle-div {
   position: absolute;
   top: 0;

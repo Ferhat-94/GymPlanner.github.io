@@ -63,33 +63,26 @@
   cursor: pointer;
   font-size: var(--footnote-medium-size);
 }
-.image-icon {
+.image-icon6 {
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: auto;
   top: 0;
-  right: 0;
+  right: 20px;
   bottom: 0;
   left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  display: none;
+  margin-right: 0px;
+  margin-left: 200px;
 }
-.image-icon,
-.rectangle1 {
+.image-icon6,
+.rectangle8 {
+  position: absolute; /* Ensure that the container has a position */
+  width: 240px; /* Adjust the width of the rectangle as needed */
+  height: 150px; /* Adjust the height of the rectangle as needed */
   border-radius: var(--br-base);
-}
-.card,
-.rectangle1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  overflow: hidden; /* Clip the content within the rectangle */
+  right: 5px; /* Align the rectangles to the right side */
+  margin-top: 20px;
 }
 .title2,
 .vector {
@@ -275,17 +268,15 @@
   font-size: var(--subtitle-medium-size);
 }
 .navigation-icon {
-  position: absolute;
-  height: 11.33%;
+  position: fixed;
+  height: 11.33%; /* You may need to adjust this percentage as needed */
   width: 100%;
-  top: 88.79%;
-  right: 0;
-  bottom: -0.12%;
+  bottom: 0;
   left: 0;
   max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  z-index: 9999; /* Ensure it's above other content */
 }
 .equipment-page {
   width: 100%;
